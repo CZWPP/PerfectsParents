@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/includetitle1" />
+
+    <LinearLayout
+        android:id="@+id/accountinfoactivity_perfectid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="完美ID"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="591243"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/appicon"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grayc" />
+
+    <LinearLayout
+        android:id="@+id/accountinfoactivity_phoneaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="手机账号"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="15966667777"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="@dimen/rightarrow_with"
+            android:layout_height="@dimen/rightarrow_height"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grayc" />
+
+    <LinearLayout
+        android:id="@+id/accountinfoactivity_customaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="自定义帐号"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="未设置"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="@dimen/rightarrow_with"
+            android:layout_height="@dimen/rightarrow_height"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grayc" />
+
+    <LinearLayout
+        android:id="@+id/accountinfoactivity_erweipic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="我的二维码名片"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/appicon" />
+
+        <ImageView
+            android:layout_width="@dimen/rightarrow_with"
+            android:layout_height="@dimen/rightarrow_height"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grayc" />
+
+    <LinearLayout
+        android:id="@+id/accountinfoactivity_socialaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="关联社交帐号"
+            android:textColor="@color/gray6"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/appicon" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/appicon" />
+
+        <ImageView
+            android:layout_width="@dimen/rightarrow_with"
+            android:layout_height="@dimen/rightarrow_height"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grayc" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/accountinfoactivity_submit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_back_two_selector"
+            android:padding="10dp"
+            android:textColor="@drawable/button_textcolor_one_selector"
+            android:text="退出登录"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

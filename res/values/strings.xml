@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">完美家长</string>
+    <string name="app_start">启动</string>
+    <string name="str_login">登  录</string>
+    <string name="str_goin">游客体验</string>
+    <string name="str_register">注册</string>
+    <string name="str_forgetpwd">忘记密码</string>
+    <string name="str_pwd">密码</string>
+    <string name="str_otherwaylogin">用以下方式登录</string>
+    <string name="str_loginwayqq">QQ</string>
+    <string name="str_loginwayweichat">微信</string>
+    <string name="str_loginwaysina">新浪</string>
+    <string name="str_loginwaybaidu">百度</string>
+    <string name="str_fover">我的收藏</string>
+    <string name="str_setting">设置</string>
+</resources>

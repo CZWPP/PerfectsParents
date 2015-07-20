@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="mainactivity_leftview">110dp</dimen>
+    <dimen name="rightarrow_with">19dp</dimen>
+    <dimen name="rightarrow_height">23dp</dimen>
+</resources>
